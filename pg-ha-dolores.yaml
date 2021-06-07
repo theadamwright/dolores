@@ -15,7 +15,8 @@ spec:
   postgresql: 
     parameters: 
       wal_keep_size: 768MB
-  # pg_hba:
+      work_mem: 128MB
+# pg_hba:
   #     - local all all md5
 
   bootstrap:

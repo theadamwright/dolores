@@ -16,11 +16,8 @@ spec:
     parameters: 
       wal_keep_size: 768MB
       work_mem: 128MB 
-
-  #postgresql:
-  #  parameters:
-  #  pg_hba:
-  #      - local all all md5
+  # pg_hba:
+  #     - local all all md5
 
   bootstrap:
     initdb:

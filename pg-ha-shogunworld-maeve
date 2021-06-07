@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  password: UGFzc3cwcmQ=
+kind: Secret
+metadata:
+  name: pg-ha-shogunworld-maeve
+type: kubernetes.io/basic-auth

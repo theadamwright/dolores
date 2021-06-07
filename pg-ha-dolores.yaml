@@ -12,9 +12,11 @@ spec:
   startDelay: 300
   stopDelay: 300
   primaryUpdateStrategy: unsupervised
-  #postgresql: 
-  #  parameters: 
-  #    wal_keep_size: 10GB
+  postgresql: 
+    parameters: 
+      wal_keep_size: 768MB
+      work_mem: 64MB
+
   #postgresql:
   #  parameters:
   #  pg_hba:

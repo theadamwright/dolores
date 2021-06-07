@@ -15,6 +15,7 @@ spec:
   postgresql: 
     parameters: 
       wal_keep_size: 768MB
+      work_mem: 128MB 
 
   #postgresql:
   #  parameters:

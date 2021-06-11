@@ -14,7 +14,7 @@ spec:
   primaryUpdateStrategy: unsupervised
   postgresql: 
     parameters: 
-      wal_keep_size: 768MB
+      wal_keep_size: 128MB
 # pg_hba:
   #     - local all all md5
 
